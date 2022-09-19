@@ -22,11 +22,11 @@ const productsContainer = document.querySelector('.products-grid');
                     <img class="product-img" src="${product.c[4].v}" alt="${product[0]}">
                 </div>
                 <div class="product-card__info">
-                    <h2 class="product-brand">Model: ${product.c[0].v}</h2>
-                    <p class="product-text">Color: ${product.c[1].v}</p>
-                    <p class="product-text">Year: ${product.c[3].v}</p>
+                    <h2 class="product-brand">รุ่น: ${product.c[0].v}</h2>
+                    <p class="product-text">สี: ${product.c[1].v}</p>
+                    <p class="product-text">ปี: ${product.c[3].v}</p>
                     <a class="product-link" href="${product.c[5].v}" target="_blank">
-                    <button type="button" class="btn btn-outline-dark">More...</button>
+                    <button type="button" class="btn btn-outline-dark">รายละเอียด...</button>
                     </a>
                 </div>
             `;
