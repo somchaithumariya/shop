@@ -1,0 +1,63 @@
+p {
+    margin-bottom: 5px !important;
+}
+
+h1.site-title {
+    text-align: center;
+    font-family: 'Sriracha', sans-serif;
+    font-weight: 500;
+    padding-top: 1.75rem;
+}
+
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 75px;
+}
+
+.product-brand {
+    font-family: 'K2D', sans-serif;
+    font-weight: 500;
+    font-size: 1.15rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.product-text {
+    font-family: 'K2D', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: rgb(90, 90, 90);
+}
+
+img.product-img {
+    max-width: 100%;
+    object-fit: cover;
+    transition: all 0.3s ease-in-out;
+    transform: scale(0.9);
+}
+
+img.product-img:hover {
+    transform: scale(0.95);
+}
+
+button.btn-outline-dark {
+    font-family: 'K2D', sans-serif;
+    font-size: 1.15rem;
+    font-weight: 400;
+    padding: 5px 10px;
+    margin-top: 10px;
+}
+
+
+footer { 
+    font-family: 'K2D', sans-serif;
+    font-weight: 600;
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 75px;
+    border: solid 1px #000000;
+    border-width: 1px 0;
+
+}
